@@ -6,7 +6,7 @@
 -->
 <html>
   <head>
-    <title>Forty by HTML5 UP</title>
+    <title>Negin Saeidi Portfolio</title>
     <meta charset="utf-8" />
     <meta
       name="viewport"
@@ -21,9 +21,10 @@
     <!-- Wrapper -->
     <div id="wrapper">
       <!-- Header -->
-      <header id="header" class="alt">
+      <!-- Note: The "styleN" class below should match that of the banner element. -->
+      <header id="header" class="alt style2">
         <a href="index.html" class="logo"
-          ><strong>Forty</strong> <span>by HTML5 UP</span></a
+          ><strong>Portfolio</strong> <span> Negin Saeidi</span></a
         >
         <nav>
           <a href="#menu">Menu</a>
@@ -33,8 +34,8 @@
       <!-- Menu -->
       <nav id="menu">
         <ul class="links">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="landing.html">Landing</a></li>
+          <li><a href="landing.html">Home</a></li>
+          <li><a href="#two">My Projects</a></li>
           <li><a href="generic.html">Generic</a></li>
           <li><a href="elements.html">Elements</a></li>
         </ul>
@@ -45,19 +46,30 @@
       </nav>
 
       <!-- Banner -->
-      <section id="banner" class="major">
+      <!-- Note: The "styleN" class below should match that of the header element. -->
+      <section id="banner" class="style2">
         <div class="inner">
+          <span class="image">
+            <img src="images/pic07.jpg" alt="" />
+          </span>
           <header class="major">
-            <h1>Hi, my name is Negin</h1>
+            <h1>Hi, my name is Negin!</h1>
           </header>
           <div class="content">
             <p>
-              A responsive site template designed by HTML5 UP<br />
-              and released under the Creative Commons.
+              Lorem ipsum dolor sit amet nullam consequat<br />
+              sed veroeros. tempus adipiscing nulla.
             </p>
             <ul class="actions">
               <li>
-                <a href="#one" class="button next scrolly">My Projects</a>
+                <a href="#two" class="button next scrolly">My Projects</a>
+              </li>
+              <li>
+                <a
+                  href="Resources/Resume(NeginSaeidi).pdf"
+                  class="button icon solid fa-download"
+                  >Resume</a
+                >
               </li>
             </ul>
           </div>
@@ -66,8 +78,99 @@
 
       <!-- Main -->
       <div id="main">
+       
+
         <!-- Two -->
-        <section id="two">
+        <section id="two" class="spotlights">
+          <section>
+            <a href="" class="image right">
+              <img src="images/Riona.JPG" alt="" data-position="" />
+            </a>
+            <div class="content">
+              <div class="inner">
+                <header class="major">
+                  <h3>Riona The Empire Saviour</h3>
+                </header>
+                <p>
+                  The game is a 3D Platformer-Shooter played on a mobile device.
+                  The player controls a wanderer named Riona, who is on a
+                  mission to eliminate an enemy invasion force in the Imperial
+                  castle. She must make use of her skills, her agility,
+                  marksmanship, and magical skills to clear the castle of all
+                  intruders.
+                </p>
+                <p>
+                  In this project I was responsible for implementing character
+                  contoller, player movement and animations. I also programmed a
+                  save and load system for all the elements in the game. 
+                  <p> <pre>Tools:Unity, C#     Type: Group Project</pre></p>
+
+                </p>
+                <ul class="actions">
+                  <li>
+                    <a
+                      href="https://github.com/neginsdii/Riona-The-Empire-Savoiur"
+                      class="button"
+                      >Source code</a
+                    >
+                  </li>
+                  <li>
+                    <a href="https://youtu.be/wA00ifi8wHY" class="button"
+                      >Video</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </section>
+         <!-- Two-1 -->
+          </section>
+          <hr />
+          <section id="two" class="spotlights">
+            <section>
+              <a href="" class="image right">
+                <img src="images/ZombieSurvival.JPG" alt="" data-position="" />
+              </a>
+              <div class="content">
+                <div class="inner">
+                  <header class="major">
+                    <h3>Zombie Survival</h3>
+                  </header>
+                  <p>
+                    This is a 3D third person shooter game, 
+                    in which the player is the only person alive in the city 
+                    and all the people have become zombies. The player should
+                     kill all the enemies to survive or they will die.
+                  </p>
+                  <p>
+                    The Game World will take place within a city and there are enemies spawning and spreading around the city.
+                    The goal of the game is to seek out and eliminate all the enemies before the time runs out. Player can pick up the items by touching them. If the inventory is full,
+                     the player is not able to pick up items anymore.
+                    The player can have up to two weapons and they can switch between weapons by clicking on them in the inventory 
+                    <p> <pre>Tools:Unity, C#     Type: One person Project</pre></p>
+    
+                  </p>
+                  <ul class="actions">
+                    <li>
+                      <a
+                        href="https://github.com/neginsdii/GAME3033-FinalProject"
+                        class="button"
+                        >Source code</a
+                      >
+                    </li>
+                    <li>
+                      <a href="https://youtu.be/wA00ifi8wHY" class="button"
+                        >Video</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </section>
+            
+            </section>
+          <!-- Three -->
+        <section id="three">
           <div class="inner">
             <header class="major">
               <h2>Massa libero</h2>
@@ -83,28 +186,7 @@
             </p>
             <ul class="actions">
               <li>
-                <a href="landing.html" class="button next">Get Started</a>
-              </li>
-            </ul>
-          </div>
-        </section>
-        <section id="two">
-          <div class="inner">
-            <header class="major">
-              <h2>Massa libero</h2>
-            </header>
-            <p>
-              Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-              libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-              Pellentesque condimentum sem. In efficitur ligula tate urna.
-              Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-              Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-              libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra
-              et feugiat tempus.
-            </p>
-            <ul class="actions">
-              <li>
-                <a href="landing.html" class="button next">Get Started</a>
+                <a href="generic.html" class="button next">Get Started</a>
               </li>
             </ul>
           </div>
