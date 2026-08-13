@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Negin Saeidi — Game Programmer [build v83]</title>
+<title>Negin Saeidi — Game Programmer [build v85]</title>
 <meta name="description" content="Portfolio of Negin Saeidi, game programmer specializing in gameplay systems, character controllers, and Unity/C# development." />
 
 <meta property="og:title" content="Negin Saeidi — Game Programmer" />
@@ -330,7 +330,7 @@
 
   @media (max-width: 900px){
     .hero-skills-grid{ grid-template-columns:1fr; }
-    .skill-group{ border-bottom:1px solid var(--border); }
+    .skill-group:nth-last-child(-n+2){ border-bottom:1px solid var(--border); }
     .skill-group:last-child{ border-bottom:none; }
   }
   @media (max-width: 620px){
@@ -571,8 +571,8 @@
     font-family:var(--mono); font-size:0.72rem; letter-spacing:0.08em;
     color:var(--text-faint); text-transform:uppercase;
   }
-  .project-card h3{ font-size:1.2rem; margin:4px 0 8px; }
-  .project-card p{ color:var(--text-muted); font-size:0.9rem; margin-bottom:12px; }
+  .project-card h3{ font-family:var(--display); font-weight:700; font-size:0.98rem; margin:4px 0 8px; }
+  .project-card p{ color:var(--text-muted); font-size:0.83rem; line-height:1.45; margin-bottom:12px; }
   .project-tags{ display:flex; flex-wrap:wrap; gap:8px; }
   .project-actions{
     display:flex; gap:10px; margin-top:auto; padding-top:12px;
